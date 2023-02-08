@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Cr Fitness</title>
+</head>
+<body>
+
+    <header class="cabecalho" >
+        <nav id="menu">
+            <div class="logo" >
+               <img src="assets/img/logo1.png" alt="logo"> 
+            </div>
+            <div class="navegacao">
+                <div class="linhas" >
+                    <div class="linha1" ></div>
+                    <div class="linha2" ></div>
+                    <div class="linha3" ></div>
+                </div>
+                <ul>
+                    <li> <a href="#">HOME</a></li>
+                    <li> <a href="#servicos">SERVIÇOS</a> </li>
+                    <li> <a href="#oferta">OFERTAS</a> </li>
+                    <li> <a href="#sobre">SOBRE</a> </li>
+                    <li> <a href="#contato">CONTATO</a> </li>
+                </ul>
+            </div> <!-- /navegacao -->  
+        </nav> <!-- /nav -->
+    </header> <!-- /cabecalho -->
+
+    <main>
+        <section class="inicio" >
+            <div class="name" >
+                <h2>INTENSIFIQUE SEUS</h2>
+                <h1><span>TREINOS</span>
+                    COM A GENTE
+                </h1>
+            </div> <!-- /name -->
+        </section> <!-- /inicio -->
+
+        <section id="servicos" class="servicos" >
+                <h2>Nossos <span>Serviços</span> exclusivos</h2>
+                <div class="box-cards" >
+                    <div class="card" >
+                        <div class="img" >
+                            <img src="assets/img/training.png" alt="segurando peso">
+                        </div>
+                        <h3>Levantamento de peso</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quam perferendis iure, harum et magni accusantium facilis eligendi vero tempora enim? Totam natus iure labore maxime sed rerum qui nulla.</p>
+                    </div><!-- /card -->
+                    <div class="card" >
+                        <div class="img" >
+                            <img src="assets/img/aerobico.png" alt="correndo na esteira">
+                        </div>
+                        <h3>Aeróbico</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quam perferendis iure, harum et magni accusantium facilis eligendi vero tempora enim? Totam natus iure labore maxime sed rerum qui nulla.</p>
+                    </div><!-- /card -->
+                    <div class="card" >
+                        <div class="img" >
+                            <img src="assets/img/hipertrofia.png" alt="mostrando musculo">
+                        </div>
+                        <h3>Hipertrofia</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quam perferendis iure, harum et magni accusantium facilis eligendi vero tempora enim? Totam natus iure labore maxime sed rerum qui nulla.</p>
+                    </div> <!-- /card -->
+                    <div class="card" >
+                        <div class="img" >
+                            <img src="assets/img/bike.png" alt="bicicleta">
+                        </div>
+                        <h3>Aulas Prátricas</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quam perferendis iure, harum et magni accusantium facilis eligendi vero tempora enim? Totam natus iure labore maxime sed rerum qui nulla.</p>
+                    </div> <!-- /card -->
+                </div> <!-- /box-cards -->
+               
+        </section> <!-- /servicos -->
+    
+        <section id="oferta" class="oferta" >
+            <div class="name" >
+                <h2>A MELHOR</h2>
+                <h1><span>OFERTA</span>PARA O VERÃO <span>!!</span></h1>
+            </div> <!-- /name -->
+            <div class="btn" >
+              <a href="#oferta">FAÇA PARTE</a>  
+            </div>
+            
+        </section> <!-- /oferta -->
+
+        <section id="sobre" class="sobre" >
+            <div class="imagem-sobre" >
+                <img src="assets/img/sobre.png" alt="">
+            </div>
+            <div class="texto-sobre" >
+                <h2>SAIBA MAIS SOBRE NÓS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aspernatur quod recusandae eveniet praesentium animi reiciendis ipsam dignissimos cumque veniam maxime reprehenderit sequi rem ipsum voluptates consectetur! Modi, adipisci odio?</p>
+                <a href="#sobre">LEIA MAIS</a>
+            </div>
+        </section>
+    </main> <!-- /main -->
+
+    <footer id="contato" class="contato" >
+        <h2>FALE <span>CONOSCO</span></h2>
+        <div class="redes" >
+            <div class="whats">
+                <a href="#">
+                    <img src="assets/img/whatsapp.png" alt="icone whatszap">
+                </a>  
+            </div> <!-- /whats -->
+            <div class="insta" >
+                <a href="#">
+                   <img src="assets/img/instagram.png" alt="icone instagram"> 
+                </a>
+            </div> <!-- insta -->
+        </div> <!-- /redes -->
+    </footer>
+    
+    
+</body>
+<script>
+    (function () {
+    var menu = document.getElementById('menu'); // colocar em cache
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) menu.classList.add('menuFixo'); // > 0 ou outro valor desejado
+        else menu.classList.remove('menuFixo');
+    });
+})();
+</script>
+</html>
