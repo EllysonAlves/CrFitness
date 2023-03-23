@@ -116,6 +116,7 @@ nav{
 .card:hover{
     border: solid 1px yellow;
     box-shadow: 0px 0px 5px yellow;
+    padding: 19px;
 }
 .img{
     text-align: center;
@@ -134,6 +135,7 @@ nav{
 }
 .box-cards{
     display: flex;
+    justify-content: space-between;
 }
 
 .oferta{
@@ -337,8 +339,12 @@ nav{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 5px;
     }
     .imagem-sobre{
+        width: 100%;
+    }
+    .imagem-sobre img{
         width: 100%;
     }
     .texto-sobre{
